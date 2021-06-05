@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang=en-US>
+   <head>
+      <meta charset=UTF-8>
+      <meta content="width=device-width,initial-scale=1"name=viewport>
+      <meta content="IE=edge"http-equiv=X-UA-Compatible>
+      <link href="/assets/css/style.css?v=02678c56c76e5e1e27b4467ab79458922676d7b8"rel=stylesheet>
+      <link href=/assets/css/print.css rel=stylesheet media=print>
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <!--[if lt IE 9]><script src=//html5shiv.googlecode.com/svn/trunk/html5.js></script><![endif]-->
+      <style>.iframe-container{overflow:hidden;position:relative}.iframe-container iframe{border:0;height:100%;left:0;position:absolute;top:0;width:100%}</style>
+      <title>COVID-19 | Daniel Cárdenas</title>
+      <meta content="Jekyll v3.8.5"name=generator>
+      <meta content=COVID-19 property=og:title>
+      <meta content=en_US property=og:locale>
+      <meta content=https://danielcs88.github.io/ name=description>
+      <meta content=https://danielcs88.github.io/ property=og:description>
+      <link href=https://danielcs88.github.io/ rel=canonical>
+      <meta content=https://danielcs88.github.io/ property=og:url>
+      <meta content="Daniel Cárdenas"property=og:site_name>
+      <script type=application/ld+json>{
+         "headline": "COVID-19",
+         "@type": "WebSite",
+         "url": "https://danielcs88.github.io/",
+         "name": "Daniel Cárdenas",
+         "description": "https://danielcs88.github.io/",
+         "@context": "https://schema.org"
+         }
+      </script>
+   </head>
+   <body>
+      <div id=container>
+      <div class=inner>
+         <header>
+            <h1>COVID-19</h1>
+         </header>
+         <hr>
+         <h1><strong>UPDATE</h1>
+         <p>June 25, 2020
+         <p>It is relevant to mention that the state of Florida at some point has attempted to tamper with the data.
+         <p>This is completely unacceptable and it renders any analysis of Rₜ invalid.
+         <p>This is the article with the details.
+         <p><a href=https://www.jacksonville.com/news/20200519/coronavirus-florida-scientist-was-fired-for-refusing-to-manipulate-covid-19-data>Coronavirus: Florida scientist was fired for refusing to 'manipulate' COVID-19 data</a>
+         <p>I have continued nonetheless to keep running the data mainly due to the recent uptick in cases in the state of Florida.
+         <h1 id=covid-19>COVID-19</h1>
+         <p>I have created two Jupyter notebooks.
+         <ol>
+            <li>
+               <p><a href=https://nbviewer.jupyter.org/github/danielcs88/covid-19/blob/master/COVID-19.ipynb>Descriptive statistics of the ongoing Covid-19 pandemic</a>
+               <p>I have included statistics from the metropolitan area of Miami (Miami-Dade, Broward, Palm Beach) as well as top counties in the United States, top countries around the world, Colombia, and Venezuela.
+               <p>Additionally, I have created graphs to illustrate the exponential growth of both the cases of COVID-19 as well as Initial Unemployment Cases.
+            <li>
+               <p><a href=https://nbviewer.jupyter.org/github/danielcs88/covid-19/blob/master/Florida%20R_0.ipynb>Florida R₀ Analysis per County</a>
+               <p>An analysis of Florida per county level to make predictions on the possibility of new cases, the implementation is using <a href=https://github.com/k-sys/covid-19>Kevin Systrom’s model</a>, and using the adaptation by <a href=https://github.com/k-sys/covid-19/blob/e95ae71f1eea827baffce2d308f767634951f9e3/Realtime_R0_by_county.ipynb>Ashutosh Sanzgiri per county</a> to analyze the situation for Florida and its counties.
+         </ol>
+         <h2 id=requirements>Requirements</h2>
+         <p>I created this with the lastest version of <a href=https://www.anaconda.com>Anaconda</a>.
+         <h2 id=data-sources>Data Sources</h2>
+         <ul>
+            <li><a href=https://github.com/nytimes/covid-19-data>New York Times: Coronavirus (Covid-19) Data in the United States</a>
+            <li>
+               <a href=https://github.com/CSSEGISandData/COVID-19>
+                  Johns Hopkins CSSE: 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data
+            <li><a href=https://fred.stlouisfed.org/series/ICSA>Initial Claims (ICSA): FRED, St. Louis Fed</a>
+         </ul>
+         <h2 id=implementation-sources>Implementation Sources</h2>
+         <ul>
+            <li><a href=https://github.com/k-sys/covid-19/blob/master/Realtime%20R0.ipynb>Kevin Systrom: covid-19</a>
+            <li><a href=https://github.com/sanzgiri/covid-19/blob/master/Realtime_R0_by_county.ipynb>Ashutosh Sanzgiri: covid-19</a>
+         </ul>
+         <h2 id=figures>Figures</h2>
+         <p>Feel free to zoom in into any of the figures, they are SVG images.
+         <h3 id=total-cases-in-the-united-states>Total cases in the United States</h3>
+         <p><img alt="Total cases in the United States"src=https://raw.githubusercontent.com/danielcs88/covid-19/master/figures/usa_cases.svg width=1000>
+         <h3 id=total-cases-in-florida-and-miami-dade>Total cases in Florida (and Miami-Dade)</h3>
+         <p><img alt="Total cases in Florida (and Miami-Dade)"src=https://raw.githubusercontent.com/danielcs88/covid-19/master/figures/fl_cases.svg width=1000 img>
+         <h3 id=new-cases-covid19>New Cases of COVID-19</h3>
+         <p><img alt="New Cases of COVID-19"src=https://raw.githubusercontent.com/danielcs88/covid-19/master/figures/new_cases.svg width=1000 img>
+         <h3 id=miami-dade--new-cases-per-day>Miami-Dade | New Cases per Day</h3>
+         <p><img alt="Miami-Dade: New Cases per Day"src=https://raw.githubusercontent.com/danielcs88/covid-19/master/figures/mdc_cases.svg width=1000 img>
+         <h3 id=miami-dade--real-time-r-t>Miami-Dade | Real-time R t</h3>
+         <p><img alt="Miami-Dade: Real-time Rₜ"src=https://raw.githubusercontent.com/danielcs88/covid-19/master/figures/mdc_rt.svg width=1000 img>
+         <h3 id=florida--r-t-per-county--timeline>Florida | R t per County | Timeline</h3>
+         <p><img alt="Florida: Rₜ per County: Timeline"src=https://raw.githubusercontent.com/danielcs88/covid-19/master/figures/fl_counties_rt.svg width=1500 img>
+         <h3 id=florida--r-t-per-county--latest-values>Florida | R t per County | Latest Values</h3>
+         <p><img alt="Florida: Rₜ per County: Timeline"src=https://raw.githubusercontent.com/danielcs88/covid-19/master/figures/fl_rt.svg width=1500 img>
+         <p><img alt="Florida: Rₜ per County: Timeline"src=https://raw.githubusercontent.com/danielcs88/covid-19/master/figures/fl_rt_uncontrolled.svg width=350>
+      </div>
+      <div class="output_html output_subarea rendered_html"><iframe allowfullscreen frameborder=0 height=1000 scrolling=no src=html/florida_rt.html width=100%></iframe></div>
+      <blockquote><a href=index.html>Back to Index</a></blockquote>
+      <footer>This page was generated by <a href=https://pages.github.com>GitHub Pages</a>.</footer>
+   </body>
+</html>

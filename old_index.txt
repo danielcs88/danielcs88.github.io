@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+      <link rel="manifest" href="/site.webmanifest" />
+      <link
+         rel="stylesheet"
+         href="/assets/css/style.css?v=be2da05cd961d1e2fce8c0c7fe3a6edb94e878f7"
+         />
+      <link
+         rel="stylesheet"
+         type="text/css"
+         href="/assets/css/print.css"
+         media="print"
+         />
+      <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      <!-- Begin Jekyll SEO tag v2.6.1 -->
+      <title>Daniel Cárdenas | https://danielcs88.github.io/</title>
+      <meta name="generator" content="Jekyll v3.9.0" />
+      <meta property="og:title" content="Daniel Cárdenas" />
+      <meta property="og:locale" content="en_US" />
+      <meta name="description" content="https://danielcs88.github.io/" />
+      <meta property="og:description" content="https://danielcs88.github.io/" />
+      <link rel="canonical" href="https://danielcs88.github.io/" />
+      <meta property="og:url" content="https://danielcs88.github.io/" />
+      <meta property="og:site_name" content="Daniel Cárdenas" />
+      <script type="application/ld+json">
+         {
+           "@type": "WebSite",
+           "headline": "Daniel Cárdenas",
+           "url": "https://danielcs88.github.io/",
+           "description": "https://danielcs88.github.io/",
+           "name": "Daniel Cárdenas",
+           "@context": "https://schema.org"
+         }
+      </script>
+      <!-- End Jekyll SEO tag -->
+   </head>
+   <body>
+      <div id="container">
+         <div class="inner">
+            <header>
+               <h1>Daniel Cárdenas</h1>
+               <h2>https://danielcs88.github.io/</h2>
+            </header>
+            <section id="downloads" class="clearfix"></section>
+            <hr />
+            <section id="main_content">
+               <p>Economics undergraduate at Florida International University.</p>
+               <h2 id="projects">Projects</h2>
+               <ol>
+                  <li>
+                     <p><a href="/covid-19.html">COVID-19 Dashboard</a></p>
+                     <p>
+                        Project on the ongoing COVID-19 pandemic. Statistics about its
+                        Rₜ values per county in the state of Florida.
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                        <a href="Colombia%20R_t.html"
+                           >🇨🇴 Colombia: Rₜ Número reproductivo COVID-19 | Análisis por
+                        departamento</a
+                           >
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                        <a href="/Bogota_Rt.html"
+                           >🇨🇴 Bogotá: Rₜ Número reproductivo COVID-19 | Análisis por
+                        localidad</a
+                           >
+                     </p>
+                  </li>
+               </ol>
+               <h2 id="Florida Economic Indicators">Florida Economic Indicators</h2>
+               <ul>
+                  <li>
+                     <p>
+                        <a href="/cues/fl_county_unemp_map.html"
+                           >Florida: Local Area Unemployment Statistics per County</a
+                           >
+                     </p>
+                     <p>  Most recent values on preliminary unemployment rates and revised unemployment rates.</p>
+                  </li>
+                  <li>
+                     <p>
+                        <a href="https://danielcs88.github.io/html/rt_live.html"
+                           >Choropleth Map: Rₜ values per state from rt.live</a
+                           >
+                     </p>
+                     <p>  Most recent values on Rₜ per state from <a href="https://rt.live/">rt.live</a></p>
+                  </li>
+                  <li>
+                     <p>
+                        <a href="/cues/fl_unemployment_rate_map.html"
+                           >Florida: Average Unemployment Rates per Year</a
+                           >
+                     </p>
+                     <p>
+                        Choropleth map with average unemployment rates per county
+                        [1990-2020].
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                        <a href="/cues/fl_heatmap_population.html"
+                           >Florida: Population Rate Change per County: Map</a
+                           >
+                     </p>
+                     <p>
+                        Choropleth map measuring population rate change year-over-year.
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                        <a href="/cues/fl_bubble_population.html"
+                           >Florida: Population Rate Change per County: Scatter Chart
+                        (1970-)</a
+                           >
+                     </p>
+                     <p>Scatter plot showing population rate change year-over-year.</p>
+                  </li>
+                  <li>
+                     <p>
+                        <a href="/cues/Florida_unemp_historical.html"
+                           >Florida: Employment status of the civilian noninstitutional
+                        population, seasonally adjusted (1970-)</a
+                           >
+                     </p>
+                     <p>Scatter plot with unemployment rate at state level.</p>
+                  </li>
+               </ul>
+               <h2 id="contact">Contact</h2>
+               <p>
+                  <img src="assets/github.svg" alt="drawing" width="32" />
+                  <a href="https://github.com/danielcs88">Github</a><br />
+                  <img src="assets/twitter.svg" alt="drawing" width="32" />
+                  <a href="https://twitter.com/DanielCardenas_">Twitter</a><br />
+                  <img src="assets/linkedin.svg" width="32" />
+                  <a href="https://www.linkedin.com/in/danielcs88/">LinkedIn</a>
+               </p>
+               <!---
+                  - [Florida: Race and Origin (percent)](cues/fl_race.html)
+                  
+                    Bar chart for each race and origin per county in Florida. Sourced from the
+                    U.S. Census Bureau: 2018 American Community Survey 5-Year Data
+                  -->
+            </section>
+            <footer>
+               This page was generated by
+               <a href="https://pages.github.com">GitHub Pages</a>.
+            </footer>
+         </div>
+      </div>
+   </body>
+</html>

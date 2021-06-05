@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang=en-US>
+   <head>
+      <meta charset=UTF-8>
+      <meta content="width=device-width,initial-scale=1"name=viewport>
+      <meta content="IE=edge"http-equiv=X-UA-Compatible>
+      <link href="/assets/css/style.css?v=1cdb847a91c2d436b776019a24db3fb1d39eea96"rel=stylesheet>
+      <link href=/assets/css/print.css rel=stylesheet media=print>
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <link
+         href="/colombia_covid-19/assets/css/style.css?v=e33137f7a1235ea42e3073853352c11112fa4034"
+         rel="stylesheet"
+         />
+      <link
+         href="/colombia_covid-19/assets/css/print.css"
+         rel="stylesheet"
+         media="print"
+         />
+      <!--[if lt IE 9]><script src=//html5shiv.googlecode.com/svn/trunk/html5.js></script><![endif]-->
+      <!-- <style>.iframe-container{overflow:hidden;position:relative}.iframe-container iframe{border:0;height:100%;left:0;position:absolute;top:0;width:100%}</style> -->
+      <title>Análisis de 🇨🇴 Colombia a nivel departamental R&#x209C;​ | Daniel Cárdenas</title>
+      <meta content="Jekyll v3.8.5"name=generator>
+      <meta content="Análisis de 🇨🇴 Colombia a nivel departamental R&#x209C;"property=og:title>
+      <meta content=en_US property=og:locale>
+      <meta content=https://danielcs88.github.io/ name=description>
+      <meta content=https://danielcs88.github.io/ property=og:description>
+      <link href=https://danielcs88.github.io/ rel=canonical>
+      <meta content=https://danielcs88.github.io/ property=og:url>
+      <meta content="Daniel Cárdenas"property=og:site_name>
+      <script type=application/ld+json>
+         {
+            "headline":"Análisis de 🇨🇴 Colombia a nivel departamental R&#x209C;",
+            "@type":"WebSite","url":"https://danielcs88.github.io/",
+            "name":"Daniel Cárdenas",
+            "description":"https://danielcs88.github.io/",
+            "@context":"https://schema.org"
+         }
+      </script>
+   </head>
+   <body>
+      <div id=container>
+         <div class=inner>
+            <header>
+               <h1 id=análisis-de-la-pandemia-covid-19-en--colombia-a-nivel-departamental--rt>Análisis de la pandemia COVID-19 en 🇨🇴 Colombia a nivel departamental | R &#x209C;</h1>
+            </header>
+            <hr />
+            <p>por Daniel Cárdenas
+            <p>
+               Si R&#x209C; > 1, el número de casos aumentará, como al comienzo de una
+               epidemia. Cuando R&#x209C; = 1, la enfermedad es endémica, y cuando
+               R&#x209C; < 1 habrá una disminución en el número de casos.
+            </p>
+            <p>
+               Entonces, los epidemiólogos usan R&#x209C; para hacer recomendaciones
+               de políticas. Es por eso que este número es tan importante.
+            </p>
+            <h2 id=notas>Notas</h2>
+            <p>Por cuestiones de simplicidad, el único distrito especial es en el caso de Bogotá. En la página nacional, hay varias ciudades que son su propio distrito (Barranquilla, Cartagena, Santa Marta y Buenaventura) fueron incluidas en su departamento respectivo (Atlántico, Bolívar, Magdalena y Valle del Cauca).
+            <p>Mi modelo es una adaptación del model de <a href=https://github.com/k-sys/covid-19>Kevin Systrom</a>
+            <p>Mi implementación es en Python usando Anaconda, pueden encontrar mi implementacion <a href=https://github.com/danielcs88/colombia_covid-19>aquí</a>
+            <h2 id=fuente-de-datos>Fuente de Datos</h2>
+            <p>Mi fuente de datos es del Ministerio de Salud de Colombia y su plataforma <a href=https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr/data>Casos positivos de COVID-19 en Colombia</a>
+            <h2 id=Graficos>Gráficos</h2>
+            <h3 id=bogotá-casos-nuevos-a-la-fecha>Bogotá: Casos Nuevos a la fecha</h3>
+            <p><img alt=svg src=https://raw.githubusercontent.com/danielcs88/colombia_covid-19/master/gr%C3%A1ficos/bta_casos.svg img width=1000>
+            <h3 id=bogotá--r-t-en-tiempo-real-hasta-la-fecha>Bogotá | R &#x209C; en tiempo real hasta la fecha</h3>
+            <p><img alt=svg src=https://raw.githubusercontent.com/danielcs88/colombia_covid-19/master/gr%C3%A1ficos/bta_rt.svg img width=1000>
+            <h3 id=departamentos-que-cumplen-con-los-criterios>Departamentos que cumplen con los criterios</h3>
+            <p>Muchos departamentos tienen muy poca información o variabilidad para aplicar el análisis de <img alt=""src=https://latex.codecogs.com/svg.latex?R_t title=R_t>.
+            <p><img alt=svg src=https://raw.githubusercontent.com/danielcs88/colombia_covid-19/master/gr%C3%A1ficos/col_dptos_rt.svg img width=1500>
+            <h3 id=valores-más-probables-de-r-t-a-la-fecha>Valores más probables de R &#x209C; a la fecha</h3>
+            <p><img alt=svg src=https://raw.githubusercontent.com/danielcs88/colombia_covid-19/master/gr%C3%A1ficos/colombia_rt.svg img width=600>
+            <h3 id=valores-más-probables-altos-de-r-t-a-la-fecha>Valores más probables (altos) de R &#x209C; a la fecha</h3>
+            <p><img alt=svg src=https://raw.githubusercontent.com/danielcs88/colombia_covid-19/master/gr%C3%A1ficos/colombia_rt_alto.svg img width=600>
+            <h3 id=departamentos-que-tienen-la-pandemia-bajo-control>Departamentos que tienen la pandemia bajo control</h3>
+            <p><img alt=svg src=https://raw.githubusercontent.com/danielcs88/colombia_covid-19/master/gr%C3%A1ficos/colombia_rt_controlado.svg img width=600>
+            <h3 id=departamentos-que-tienen-la-pandemia-fuera-de-control>Departamentos que tienen la pandemia fuera de control</h3>
+            <p><img alt=svg src=https://raw.githubusercontent.com/danielcs88/colombia_covid-19/master/gr%C3%A1ficos/colombia_rt_descontrolada.svg img width=600>
+         </div>
+         <h3 id=colombia--mapa-r-t-por-departamento>Colombia | Mapa R&#x209C; por Departamento</h3>
+         <div class="output_html output_subarea rendered_html">
+            <iframe 
+               allowfullscreen = ""
+               frameborder="0"
+               height="1000"
+               scrolling="no"
+               src="html/rt_colombia.html"
+               width="100%">
+            ></iframe>
+         </div>
+         <blockquote><a href=index.html>Back to Index</a></blockquote>
+         <footer>This page was generated by <a href=https://pages.github.com>GitHub Pages</a>.</footer>
+      </div>
+   </body>
+</html>
