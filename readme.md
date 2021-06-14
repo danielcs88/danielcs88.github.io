@@ -45,4 +45,4 @@ Economics, BSc, Florida International University
 <img src="assets/github.svg" alt="drawing" width="32" /> [Github](https://github.com/danielcs88)  
 <img src="assets/twitter.svg" alt="drawing" width="32" /> [Twitter](https://twitter.com/DanielCardenas_)  
 <img src="assets/linkedin.svg" width="32" /> [LinkedIn](https://www.linkedin.com/in/danielcs88/)  
-<img src="assets/Toluca_Lake.jpg" width="32" /> [Résumé](https://standardresume.co/r/Cyv5fFm0qTl-qtgIIGegt)
+<img src="assets/Toluca_Lake.jpg" width="32" /> [Résumé](https://standardresume.co/r/lKS_uuDBGzRYq7lxaXjMi)
