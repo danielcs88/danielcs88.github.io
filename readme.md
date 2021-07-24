@@ -12,33 +12,31 @@ Economics, BSc, Florida International University
 
 3.  [🇨🇴 Bogotá: Rₜ Número reproductivo COVID-19 | Análisis por localidad](/Bogota_Rt.html)
 
-
 ## Florida Economic Indicators
 
-*   [Florida: Local Area Unemployment Statistics per County](/cues/fl_county_unemp_map.html)
+- [Florida: Local Area Unemployment Statistics per County](/cues/fl_county_unemp_map.html)
 
-    Most recent values on preliminary unemployment rates and revised unemployment rates.
+  Most recent values on preliminary unemployment rates and revised unemployment rates.
 
-*   [Choropleth Map: Rₜ values per state from rt.live](https://danielcs88.github.io/html/rt_live.html)
+- [Choropleth Map: Rₜ values per state from Epiforecasts.io](https://danielcs88.github.io/html/rt.html)
 
-    Most recent values on Rₜ per state from [rt.live](https://rt.live/)
+  Choropleth map from latest values from [Epiforecasts.io](https://epiforecasts.io/covid/posts/national/united-states/)
 
-*   [Florida: Average Unemployment Rates per Year](/cues/fl_unemployment_rate_map.html)
+- [Florida: Average Unemployment Rates per Year](/cues/fl_unemployment_rate_map.html)
 
-    Choropleth map with average unemployment rates per county \[1990-2020\].
+  Choropleth map with average unemployment rates per county \[1990-2020\].
 
-*   [Florida: Population Rate Change per County: Map](/cues/fl_heatmap_population.html)
+- [Florida: Population Rate Change per County: Map](/cues/fl_heatmap_population.html)
 
-    Choropleth map measuring population rate change year-over-year.
+  Choropleth map measuring population rate change year-over-year.
 
-*   [Florida: Population Rate Change per County: Scatter Chart (1970-)](/cues/fl_bubble_population.html)
+- [Florida: Population Rate Change per County: Scatter Chart (1970-)](/cues/fl_bubble_population.html)
 
-    Scatter plot showing population rate change year-over-year.
+  Scatter plot showing population rate change year-over-year.
 
-*   [Florida: Employment status of the civilian noninstitutional population, seasonally adjusted (1970-)](/cues/Florida_unemp_historical.html)
+- [Florida: Employment status of the civilian noninstitutional population, seasonally adjusted (1970-)](/cues/Florida_unemp_historical.html)
 
-    Scatter plot with unemployment rate at state level.
-
+  Scatter plot with unemployment rate at state level.
 
 ## Contact
 
