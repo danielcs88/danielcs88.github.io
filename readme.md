@@ -1,7 +1,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+Finance, MSF, Florida International University</br>
 Economics, BSc, Florida International University
-
+<!-- 
 ## Projects
 
 1.  [COVID-19 Dashboard](/covid-19.html)
@@ -10,7 +11,7 @@ Economics, BSc, Florida International University
 
 2.  [🇨🇴 Colombia: Rₜ Número reproductivo COVID-19 | Análisis por departamento](Colombia%20R_t.html)
 
-3.  [🇨🇴 Bogotá: Rₜ Número reproductivo COVID-19 | Análisis por localidad](/Bogota_Rt.html)
+3.  [🇨🇴 Bogotá: Rₜ Número reproductivo COVID-19 | Análisis por localidad](/Bogota_Rt.html) -->
 
 ## Florida Economic Indicators
 
