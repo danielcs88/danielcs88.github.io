@@ -3,33 +3,21 @@
 Finance, MSF, Florida International University</br>
 Economics, BSc, Florida International University
 
-<!--
 ## Projects
 
-1.  [COVID-19 Dashboard](/covid-19.html)
-
-    Project on the ongoing COVID-19 pandemic. Statistics about its Rₜ values per county in the state of Florida.
-
-2.  [🇨🇴 Colombia: Rₜ Número reproductivo COVID-19 | Análisis por departamento](Colombia%20R_t.html)
-
-3.  [🇨🇴 Bogotá: Rₜ Número reproductivo COVID-19 | Análisis por localidad](/Bogota_Rt.html) -->
-
-## Florida Economic Indicators
+### Florida Economic Indicators
 
 - [Florida: Local Area Unemployment Statistics per County](/cues/fl_county_unemp_map.html)
 
   Most recent values on preliminary unemployment rates and revised unemployment rates.
 
 - [Choropleth Map: Rₜ values per state from Epiforecasts.io](https://danielcs88.github.io/html/rt.html)
-
   Choropleth map from latest values from [Epiforecasts.io](https://epiforecasts.io/covid/posts/national/united-states/)
 
 - [Florida: Average Unemployment Rates per Year](/cues/fl_unemployment_rate_map.html)
-
   Choropleth map with average unemployment rates per county \[1990-2020\].
 
 - [Florida: Population Rate Change per County: Map](/cues/fl_heatmap_population.html)
-
   Choropleth map measuring population rate change year-over-year.
 
 - [Florida: Population Rate Change per County: Scatter Chart (1970-)](/cues/fl_bubble_population.html)
@@ -43,14 +31,17 @@ Economics, BSc, Florida International University
 ## Previous Projects
 
 - [Mutual Fund Portfolio: Markowitz Portfolio Optimization](https://nbviewer.org/github/danielcs88/project_fin6525/blob/main/Output_Project_Cardenas_Daniel_6102358.ipynb)
-
-- [Florida (county level)](https://danielcs88.github.io/covid-19.html) -->
-
-- [Colombia (a nivel departamental)](https://danielcs88.github.io/Colombia%20R_t.html)
-
-- [Bogotá (a nivel de localidad)](https://danielcs88.github.io/Bogota_Rt.html) -->
-
 - [National Longitudinal Survey of Youth 1979: An Analysis on the effects of characteristics on Unemployment](https://nbviewer.org/github/danielcs88/NLSY_79/blob/master/Project.ipynb)
+
+## Previous COVID-19 R Analysis
+
+1. [COVID-19 Dashboard](/covid-19.html)
+
+   Project on the ongoing COVID-19 pandemic. Statistics about its Rₜ values per county in the state of Florida.
+
+2. [🇨🇴 Colombia: Rₜ Número reproductivo COVID-19 | Análisis por departamento](Colombia%20R_t.html)
+
+3. [🇨🇴 Bogotá: Rₜ Número reproductivo COVID-19 | Análisis por localidad](/Bogota_Rt.html) -->
 
 ## Contact
 
