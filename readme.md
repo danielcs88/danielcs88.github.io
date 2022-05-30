@@ -33,7 +33,7 @@ Economics, BSc, Florida International University
 - [Mutual Fund Portfolio: Markowitz Portfolio Optimization](https://nbviewer.org/github/danielcs88/project_fin6525/blob/main/Output_Project_Cardenas_Daniel_6102358.ipynb)
 - [National Longitudinal Survey of Youth 1979: An Analysis on the effects of characteristics on Unemployment](https://nbviewer.org/github/danielcs88/NLSY_79/blob/master/Project.ipynb)
 
-## Previous COVID-19 R Analysis
+## Previous COVID-19 Rₜ Analysis
 
 1. [COVID-19 Dashboard](/covid-19.html)
 
