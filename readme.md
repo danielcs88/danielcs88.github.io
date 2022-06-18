@@ -11,9 +11,6 @@ Economics, BSc, Florida International University
 
   Most recent values on preliminary unemployment rates and revised unemployment rates.
 
-- [Choropleth Map: Rₜ values per state from Epiforecasts.io](https://danielcs88.github.io/html/rt.html)
-  Choropleth map from latest values from [Epiforecasts.io](https://epiforecasts.io/covid/posts/national/united-states/)
-
 - [Florida: Average Unemployment Rates per Year](/cues/fl_unemployment_rate_map.html)
   Choropleth map with average unemployment rates per county \[1990-2020\].
 
@@ -35,13 +32,16 @@ Economics, BSc, Florida International University
 
 ## Previous COVID-19 Rₜ Analysis
 
-1. [COVID-19 Dashboard](/covid-19.html)
+1. [Choropleth Map: Rₜ values per state from Epiforecasts.io](https://danielcs88.github.io/html/rt.html)
+   Choropleth map from latest values from [Epiforecasts.io](https://epiforecasts.io/covid/posts/national/united-states/)
+
+2. [COVID-19 Dashboard](/covid-19.html)
 
    Project on the ongoing COVID-19 pandemic. Statistics about its Rₜ values per county in the state of Florida.
 
-2. [🇨🇴 Colombia: Rₜ Número reproductivo COVID-19 | Análisis por departamento](Colombia%20R_t.html)
+3. [🇨🇴 Colombia: Rₜ Número reproductivo COVID-19 | Análisis por departamento](Colombia%20R_t.html)
 
-3. [🇨🇴 Bogotá: Rₜ Número reproductivo COVID-19 | Análisis por localidad](/Bogota_Rt.html) -->
+4. [🇨🇴 Bogotá: Rₜ Número reproductivo COVID-19 | Análisis por localidad](/Bogota_Rt.html) -->
 
 ## Contact
 
