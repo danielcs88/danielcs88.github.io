@@ -47,7 +47,7 @@ Economics, BSc, Florida International University
 ## Contact
 
 <img src="assets/github.svg" alt="drawing" width="32" /> [Github](https://github.com/danielcs88)  
-<img src="assets/mastodon.svg" alt="drawing" width="32" rel="me"/>[Mastodon](https://mastodon.world/@danielcs88)
+<img src="assets/mastodon.svg" alt="drawing" width="32" rel="me"/>[Mastodon](https://mastodon.cloud/@danielcs88)
 
 <!-- <img src="assets/twitter.svg" alt="drawing" width="32" /> [Twitter](https://twitter.com/DanielCardenas_)   -->
 
