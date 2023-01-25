@@ -1,5 +1,5 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://mastodon.cloud/@danielcs88" rel="me">
+<link rel="me" href="https://mastodon.cloud/@danielcs88">
 
 Finance, MSF, Florida International University</br>
 Economics, BSc, Florida International University
