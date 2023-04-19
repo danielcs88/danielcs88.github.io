@@ -6,11 +6,11 @@ Economics, BSc, Florida International University
 
 ## Projects
 
-### Florida Economic Indicators
-
 - [Florida: Local Area Unemployment Statistics per County](/cues/fl_county_unemp_map.html)
-
   Most recent values on preliminary unemployment rates and revised unemployment rates.
+
+- [Beveridge Curve](https://cloud.datapane.com/reports/OkpKyP7/beveridge-curve/)
+  The Beveridge Curve is a graphical representation of the relationship between unemployment and job vacancies in an economy.
 
 - [Florida: Average Unemployment Rates per Year](/cues/fl_unemployment_rate_map.html)
   Choropleth map with average unemployment rates per county \[1990-2020\].
@@ -19,18 +19,24 @@ Economics, BSc, Florida International University
   Choropleth map measuring population rate change year-over-year.
 
 - [Florida: Population Rate Change per County: Scatter Chart (1970-)](/cues/fl_bubble_population.html)
-
   Scatter plot showing population rate change year-over-year.
 
 - [Florida: Employment status of the civilian noninstitutional population, seasonally adjusted (1970-)](/cues/Florida_unemp_historical.html)
-
   Scatter plot with unemployment rate at state level.
 
-## Previous Projects
-
 - [Mutual Fund Portfolio: Markowitz Portfolio Optimization](https://nbviewer.org/github/danielcs88/project_fin6525/blob/main/Output_Project_Cardenas_Daniel_6102358.ipynb)
+
 - [National Longitudinal Survey of Youth 1979: An Analysis on the effects of characteristics on Unemployment](https://nbviewer.org/github/danielcs88/NLSY_79/blob/master/Project.ipynb)
+
+  The National Longitudinal Survey of Youth 1979 is a dataset used to analyze the effects of various individual and demographic characteristics on unemployment outcomes over time.
+
 - [Dupont Analysis: FFIEC Report](https://nbviewer.org/github/danielcs88/dupont_analysis/blob/master/dupont_analysis_assignment.ipynb)
+
+  Bank Dupont Analysis is a financial performance measurement technique that breaks down the return on equity (ROE) of a bank into its constituent parts to assess the profitability, efficiency, and leverage of the bank.
+
+- [ISS Pro Evolution (SLUS-01014): Player Database](https://iss-pro-evolution.vercel.app/iss_player_data/iss_player_data)
+
+  Player database implementing Datasette.
 
 ## Previous COVID-19 Rₜ Analysis
 
