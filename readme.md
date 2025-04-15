@@ -40,9 +40,9 @@ Economics, BSc, Florida International University
 
   Bank Dupont Analysis is a financial performance measurement technique that breaks down the return on equity (ROE) of a bank into its constituent parts to assess the profitability, efficiency, and leverage of the bank.
 
-- [ISS Pro Evolution (SLUS-01014): Player Database](https://iss-pro-evolution.vercel.app/iss_player_data/iss_player_data)
+- [ISS Pro Evolution (SLUS-01014): Player Database](https://github.com/danielcs88/iss_pro_evo_we_4_player_db)
 
-  Player database implementing Datasette.
+  Player database.
 
 ## Previous COVID-19 Rₜ Analysis
 
