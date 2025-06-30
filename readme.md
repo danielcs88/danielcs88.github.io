@@ -10,9 +10,9 @@ Economics, BSc, Florida International University
 
   Most recent values on preliminary unemployment rates and revised unemployment rates.
 
-- [Beveridge Curve](https://cloud.datapane.com/reports/OkpKyP7/beveridge-curve/)
+<!-- - [Beveridge Curve](https://cloud.datapane.com/reports/OkpKyP7/beveridge-curve/) -->
 
-  The Beveridge Curve is a graphical representation of the relationship between unemployment and job vacancies in an economy.
+  <!-- The Beveridge Curve is a graphical representation of the relationship between unemployment and job vacancies in an economy. -->
 
 - [Florida: Average Unemployment Rates per Year](/cues/fl_unemployment_rate_map.html)
 
@@ -60,7 +60,7 @@ Economics, BSc, Florida International University
 
 ## Contact
 
-<img src="assets/github.svg" alt="drawing" width="32" /> [Github](https://github.com/danielcs88)  
+<img src="assets/github.svg" alt="drawing" width="32" /> [Github](https://github.com/danielcs88)
 <img src="assets/mastodon.svg" alt="drawing" width="32" rel="me"/>[Mastodon](https://mastodon.cloud/@danielcs88)
 
 <!-- <img src="assets/twitter.svg" alt="drawing" width="32" /> [Twitter](https://twitter.com/DanielCardenas_)   -->
