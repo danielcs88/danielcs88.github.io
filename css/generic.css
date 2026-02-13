@@ -1,0 +1,178 @@
+/* =========================
+   Minimal, functional base
+   ========================= */
+
+/* 1) Reset-ish */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.6;
+  color: #111;
+  background: #fff;
+}
+
+/* 2) Layout helpers (optional but harmless) */
+.container,
+main,
+header,
+footer,
+section,
+article {
+  display: block;
+}
+
+.container {
+  width: min(900px, 92%);
+  margin-inline: auto;
+  padding: 24px 0;
+}
+
+main {
+  width: min(900px, 92%);
+  margin-inline: auto;
+  padding: 24px 0 64px;
+}
+
+/* 3) Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.2em 0 0.4em;
+  line-height: 1.25;
+}
+
+h1 { font-size: clamp(1.75rem, 2.4vw, 2.5rem); }
+h2 { font-size: clamp(1.35rem, 1.8vw, 1.75rem); }
+h3 { font-size: 1.25rem; }
+
+p, ul, ol, blockquote, pre, table {
+  margin: 0.75em 0;
+}
+
+ul, ol {
+  padding-left: 1.25em;
+}
+
+/* 4) Links */
+a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+a:hover {
+  color: #1d4ed8;
+}
+
+/* 5) Media */
+img, svg, video, canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 6) Code */
+code, pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  font-size: 0.95em;
+}
+
+code {
+  background: #f3f4f6;
+  padding: 0.15em 0.35em;
+  border-radius: 6px;
+}
+
+pre {
+  background: #0b1020;
+  color: #e5e7eb;
+  padding: 14px 16px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+/* 7) Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden; /* lets radius work */
+}
+
+th, td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: top;
+}
+
+th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+
+tr:last-child td { border-bottom: 0; }
+
+/* 8) Blockquotes */
+blockquote {
+  padding: 10px 14px;
+  border-left: 4px solid #e5e7eb;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+/* 9) Horizontal rule */
+hr {
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+  margin: 24px 0;
+}
+
+/* 10) Forms (basic) */
+input, textarea, select, button {
+  font: inherit;
+}
+
+input, textarea, select {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #fff;
+}
+
+button {
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover { background: #222; }
+
+/* 11) Optional: dark mode */
+@media (prefers-color-scheme: dark) {
+  body { color: #e5e7eb; background: #0b0f17; }
+  a { color: #93c5fd; }
+  a:hover { color: #bfdbfe; }
+  code { background: rgba(255,255,255,0.08); }
+  blockquote { background: rgba(255,255,255,0.06); border-left-color: rgba(255,255,255,0.16); }
+  hr { border-top-color: rgba(255,255,255,0.12); }
+  table { border-color: rgba(255,255,255,0.12); }
+  th { background: rgba(255,255,255,0.06); }
+  th, td { border-bottom-color: rgba(255,255,255,0.12); }
+  input, textarea, select { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.16); color: #e5e7eb; }
+  button { border-color: rgba(255,255,255,0.16); }
+}
